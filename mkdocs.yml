@@ -1,0 +1,40 @@
+site_name: SoeiroTech Lab
+site_author: Márcio Soeiro
+repo_name: mandresoeiro/soeirotech-lab
+repo_url: https://github.com/mandresoeiro/soeirotech-lab
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+
+nav:
+  - 🇧🇷 Português:
+      - Início: pt/index.md
+      - Manifesto: pt/manifesto.md
+  - 🇺🇸 English:
+      - Home: en/index.md
+      - Manifesto: en/manifesto.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+plugins:
+  - search
